@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.sqlite3
+*.log
+.env
+.env.*
+*.egg-info/
+*.db
+
+# FastAPI / Pydantic
+instance/
+*.pem
+
+# Virtual environments
+venv/
+env/
+.venv/
+.envrc
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Node.js / React
+node_modules/
+build/
+dist/
+*.log
+*.cache
+*.env.local
+*.env.development
+*.env.production
+*.DS_Store
+
+# Coverage & testing
+coverage/
+htmlcov/
+.cache/
+.tox/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Docker
+**/docker-compose.override.yml
+**/.docker/
+**/.dockerignore
+
+# PostgreSQL
+*.sql
+*.dump
+pg_data/
+
+# Redis (если dump сохраняется)
+dump.rdb
+appendonly.aof
+
+# Mac & Windows system files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
