@@ -1,5 +1,5 @@
 from app.dao.base import BaseDAO
 from app.products.models import Products
 
-class ProducsDAO(BaseDAO):
+class ProductsDAO(BaseDAO):
     model = Products

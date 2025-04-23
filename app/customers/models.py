@@ -9,4 +9,4 @@ class Customers(Base):
     email = Column(String, nullable=False)
     hashed_password = Column(String, nullable=False)
 
-    orders = relationship("Orders", back_populates="customer")
+    # orders = relationship("Orders", back_populates="customer")

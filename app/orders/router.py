@@ -10,4 +10,8 @@ router = APIRouter(
 
 @router.get("")
 async def get_order():
-    return await OrdersDAO.find_all(id=1)
+    return await OrdersDAO.find_all()
+
+@router.get("/{order_id}/orders")
+async def get_rooms(order_id: int = Orders.id):
+    return await OrdersDAO.find_by_id(order_id)

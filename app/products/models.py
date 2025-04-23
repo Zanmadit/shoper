@@ -10,4 +10,4 @@ class Products(Base):
     price = Column(Integer, nullable=True)
     quantity = Column(Integer, nullable=True)
     
-    orders = relationship("Orders", back_populates="product")
+    # orders = relationship("Orders", back_populates="product")

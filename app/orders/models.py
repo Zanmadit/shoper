@@ -11,5 +11,5 @@ class Orders(Base):
     quantity = Column(Integer, nullable=False)
     order_date = Column(Date, nullable=False)
 
-    customer = relationship("Customers", back_populates="orders")
-    product = relationship("Products", back_populates="orders")
+    # customer = relationship("Customers", back_populates="orders")
+    # product = relationship("Products", back_populates="orders")
